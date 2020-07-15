@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adicionar Produto</title>
+</head>
+<body>
+    <div>
+        <p>Essência Da Vida</p>
+    </div>
+    
+    <div>
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+    </div>
+
+    
+    <h2>Adicionar Produto</h2>
+    <form border="1px" action="acao" >
+        <div>
+            <label for="link-foto">Link para foto: </label>
+            <input placeholder="Cole a URL Aqui" type="url" id="link-foto" name="link-foto">
+        </div>
+        <br>
+        <div>
+            <label for="descricao">Descrição do produto: </label>
+            <input placeholder="Descreva o Produto" type="text" id="description-product" name="descrição">
+        </div>
+        <br>
+        <div>
+            <label for="preco">Preço Do Produto: </label>
+            <input placeholder="Valor em Reais" type="tel" id="value" name="preço">
+        </div>
+        <br>
+        <div>
+            <label>Quantidade disponível: </label>
+            <input placeholder="Volume em Estoque" type="tel" id="quantidade" name="estoque">
+        </div>
+        <br>
+        <div class="form-add">
+            <button type="submit">Adicionar</button>
+        </div>
+    </form>
+
+</body>
+</html>
