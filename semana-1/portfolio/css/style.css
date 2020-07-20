@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #f7f5f5;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    padding: 50px 0;
+}
+
+.faixa img{
+    padding-top: -20%;
+  
+}
+
+.clear {
+    clear: both;
+}
+.logo img {
+    width: 10%;
+    float: left;
+    margin-left: -60px;
+    margin-top: -30px;
+}
+
+
+.menu {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-left: -30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.menu a {
+    margin: 10 10px;
+    margin-right: 50px;
+    padding-right: -30px;
+    text-decoration: none;
+    color: #0094c4;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #ff5522;
+}
+
+/*.icons-menu { 
+    float: left;
+    width: 10%;
+}
+
+Usar essas configurações nos icones do footer
+.icons-menu a {
+    margin: 0 10px;
+}*/
+
+/*CONFIGURAÇÕES DO TOPO-1*/
+.section-one {
+    margin-top: -65px;
+    float: left;
+    width: 60%;
+}
+
+.section-one h3 {
+    color: #535b6c;
+    margin: 10px 0;
+    margin-left: -60px;
+}
+
+.section-one h1 {
+    padding-top: -15px;
+    margin: 20px 0;
+    margin-left: -60px;
+    color: #004a80;
+    font-size: 56px;
+}
+
+.section-one h1>span {
+    color: #ff5522;
+}
+
+.section-one p {
+    width: 90%;
+    color: #004a80;
+    margin-left: -60px;
+    font-size: 18px;
+}
+
+.section-two {
+    float: left;
+    width: 40%;
+}
+
+.section-two img {
+    margin-left: -50px;
+    width: 140%;
+    max-width: 140%;
+    margin-top: -22%;
+}
+
+.section-one a {
+    border-radius: 4px;
+    background-color: #ff5522;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-left: -60px;
+    color: white;
+}
+
+.servicos {
+    padding: 15px 0;
+}
+
+.chamada-servicos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.chamada-servicos h4 {
+    font-size: 16px;
+    color: #535b6c;
+}
+
+.chamada-servicos h1 {
+    font-size: 55px;
+    color: #004a80;
+}
+
+.img-servicos {
+    width: 60%;
+}
+
+.img-servicos img {
+    max-width: 100%;
+    margin-top: 10%;
+    margin-left: -40px;
+}
+
+.detalhes-servicos {
+    margin-top: -500px;
+    margin-left: 65%;
+    padding: -10px -10px;
+    width: 40%;
+}
+
+.detalhes-servicos h3 {
+    color: #535b6c;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 10px 20;
+    margin-top: 5%;
+}
+
+.detalhes-servicos p {
+    color: #9299a5;
+    font-size: 18px;
+}
+
+.texto-depoimento {
+    float: left;
+    width: 50%;
+}
+
+.texto-depoimento h3 {
+    padding-top: 10%;
+    color: #535b6c;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.texto-depoimento h4 {
+    font-size: 22px;
+    color: #9299a5;
+}
+
+.img-depoimento {
+    float: left;
+    width: 45%;
+}
+
+.img-depoimento img {
+    padding-top: 100px;
+    max-width: 100%;
+    margin-top: -5px;
+}
+
+.img-showcase {
+    width: 100%;
+    text-align: center;
+}
+
+.img-showcase img {
+    max-width: 80%;
+}
+
+.formulario {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.formulario input[type=text] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.formulario input[type=submit] {
+    background-color: #ff5522;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    width: 100%;
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #535b6c;
+}
+
+footer img{
+    width: 40%;
+    float: left; 
+    display: inline-block;
+    margin-top: 15px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        float: right;
+    }
+    .menu a {
+        display: block;
+        text-align: right;
+        margin: 8px 10px;
+    }
+    .icons-menu {
+        display: none;
+    }
+    .img-depoimento,
+    .texto-depoimento {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .img-servicos,
+    .detalhes-servicos {
+        width: 100%;
+    }
+    .topo-2,
+    .topo-1 {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    margin-top: 40px;
+    background-color: gray; 
+}
+
+.logo-footer {
+    float: left;
+    margin-left: 50px;
+}
+
+.descricao-empresa {
+    position: center;
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.reservation{
+    position: center;
+    color: white;
+}

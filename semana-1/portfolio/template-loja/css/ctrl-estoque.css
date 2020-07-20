@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.center-menu {
+    margin: 0 auto;
+    padding: 0 2%;
+    background: #7d06c2;
+    padding-bottom: 5%;
+}
+
+.center-menu>h3 {
+    font-size: 40px;
+    color: white;
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+.center-menu a {
+    float: right;
+    margin-top: 2%;
+    color: white;
+    margin-left: ;
+    text-decoration: none;
+    padding-left: 1%;
+    font-size: 15px;
+}
+
+.center-menu a:hover {
+    color: #070707;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+table {
+    margin-left: 3%;
+}
+
+th {
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+td {
+    padding-left: 5%;
+}
