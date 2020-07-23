@@ -1,0 +1,57 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#main-container {
+    display: grid;
+    row-gap: 10px;
+}
+
+#first-block {
+    background-color: red;
+    height: 20vh;
+}
+
+.blue-block {
+    background-color: blue;
+    width: 20vw;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.yellow-block {
+    background-color: yellow;
+    width: 20vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 40px 50px auto 50px 40px;
+}
+
+.green-block {
+    background-color: green;
+    width: 20vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+    width: 40vw;
+    height: 35vh;
+}
+
+.white-block {
+    background-color: white;
+}
