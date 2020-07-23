@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color: orange;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 0;
+}
+
+.logo>a {
+    text-decoration: none;
+}
+
+.logo>a>h2 {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.search>input {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+#search-header {
+    margin-left: 800px;
+}
+
+#search-header::placeholder {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*SECTION GRADE DE VÍDEOS*/
+
+.container {
+    justify-content: center;
+}
+
+.grid-streamer {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    gap: 15px 15px;
+}
+
+.item-1 {
+    background-color: red;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item-2 {
+    background-color: blue;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.item-3 {
+    background-color: pink;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.item-4 {
+    background-color: green;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.item-5 {
+    background-color: yellow;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.item-6 {
+    background-color: black;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item-7 {
+    background-color: gray;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.item-8 {
+    background-color: purple;
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.item-9 {
+    background-color: greenyellow;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.item-10 {
+    background-color: blanchedalmond;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.item-11 {
+    background-color: greenyellow;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.item-12 {
+    background-color: peru;
+    grid-column: 4;
+    grid-row: 3;
+}
