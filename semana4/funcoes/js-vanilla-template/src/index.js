@@ -199,23 +199,4 @@
 
 ///-------------------------------------- DESAFIO -------------------------
 
-//1. 
 
-// const imprimir = (parametro) => {
-//     console.log(parametro)
-
-// }
-
-// imprimir()
-
-
-// //2. 
-// const duploParametro = (parametro1, parametro2) => {
-//     const soma = parametro1 + parametro2
-
-//     return soma
-// }
-
-// const resposta = imprimir(duploParametro(5, 5))
-
-// 2. NAO CONSEGUI FAZER
