@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/detalhes.js" defer></script>
+    <title>Despesas Detalhadas</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cadastro">
+            <h1>Despesas Detalhadas</h1>
+            <div class="quadro-2">
+                <label for="tipo">Tipo:</>
+                <select name="despesas" id="tipo">
+                    <option value="Selecione">Selecione</option>
+                    <option value="Aluguel">Aluguel</option>
+                    <option value="Supermercado">Supermercado</option>
+                    <option value="internet"></option>
+                </select>
+                <label for="valor-max">Valor Máximo:</label>
+                <input id="valor-max" type="text">
+                <label for="valor-min">Valor Mínimo:</label>
+                <input id="valor-min" type="text">
+
+                <button id="filtrar">Filtrar</button>
+                <button id="limpar">Limpar Filtros</button>
+                <button id="pagina-extrato">Visualizar Extrato</button>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
