@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(1, 25, 102);
+}
+
+H1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+label {
+    display: block;
+    color: white;
+}
+
+#valor {
+    margin-bottom: 10px;
+}
+
+#tipo {
+    display: block;
+    margin-bottom: 70px;
+}
+
+#descricao {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cadastro {
+    width: 30vw;
+    border: 5px;
+}
+
+#cadastrar {
+    padding: 10px 20px;
+    background-color: white;
+    display: block;
+    margin-bottom: 100px;
+}
+
+#pagina-detalhes {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+#valor-max {
+    margin-bottom: 10px;
+}
+
+#valor-min {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#filtrar {
+    padding: 10px 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#limpar {
+    padding: 10px 20px;
+    background-color: white;
+    display: block;
+    margin-bottom: 100px;
+}
+
+#pagina-extrato {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.extrato {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.extrato>h3 {
+    margin-bottom: 10px;
+}
+
+#valor-total {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#voltar-inicio {
+    padding: 10px 20px;
+    background-color: white;
+}
