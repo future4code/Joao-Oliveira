@@ -1,0 +1,8 @@
+// --------------------------- EXERCICIOS DE INTERPRETAÇÃO DE CÓDIGO -------------------------------
+
+// Analise os trechos de código em cada exercício e escreva o que ele faz, como faz e qual será o valor impresso no CONSOLE
+
+
+//1.  A função conversorDeMoeda recebe um número através do parâmetro valorEmDolar e armazena em uma constante o valor da contação ao mesmo tempo em que realiza um cast Number para converter o valor de string para number, a fim de que seja possível realizar a futura operação matemática. Em seguida a function retorna o valor do parâmetro mutiplicado pela input inserido na variável cotação. E por fim é criado uma constante que armaneza o return da fuction que será imprimida logo em seguida pelo console.log. 
+
+//2. A função investeDinheiro ela recebe dois parâmetros, sendo o primeiro uma string e o segundo um number. Ems seguida temos uma variável sem atribuição. Então chegamos a uma bloco de código de condicionais que executará a multiplicação do valor inserido no segundo parâmetro a depender do tipo de investimento que o primeiro parâmetro receber. Se for Renda Fixa, o caso, o valor será multiplicaod por 1.05, todavia, se for um certificado de depósito bancário valor será multiplicado por 1.06. Então chegamos ao momento em que a variável anteriormente declarada receberá o valor das condição que foi atendida, sendo que se nenhuma das condições dor atendida, aparecerá um alerta na página informando que o tipo de investimento informado é incorreto. E por fim são criadas duas variáveis que acessam condições distintas e depois imprimem cada qual o resultado esperado.
