@@ -1,0 +1,15 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "João Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.11.10",
+    "typescript": "^4.0.3"
+  }
+}
